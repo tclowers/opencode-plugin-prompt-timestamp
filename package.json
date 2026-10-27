@@ -18,6 +18,14 @@
     "timestamp",
     "time"
   ],
+  "homepage": "https://github.com/tclowers/opencode-plugin-prompt-timestamp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tclowers/opencode-plugin-prompt-timestamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tclowers/opencode-plugin-prompt-timestamp/issues"
+  },
   "license": "0BSD",
   "peerDependencies": {
     "@opencode-ai/plugin": "*"
