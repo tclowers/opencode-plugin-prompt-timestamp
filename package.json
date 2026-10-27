@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "opencode plugin: inject a one-line time context (local timezone + UTC) into every user prompt.",
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
   "main": "index.js",
   "exports": {
     ".": "./index.js"

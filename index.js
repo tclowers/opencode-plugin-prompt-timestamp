@@ -65,7 +65,8 @@ export const PromptTimestamp = async ({ $ }, options = {}) => {
       const messageID = output?.message?.id ?? input?.messageID
       if (!messageID) return
       output.parts.push({
-        id: crypto.randomUUID(),
+        // OpenCode validates part IDs before persisting user messages.
+        id: `prt_${crypto.randomUUID().replaceAll("-", "")}`,
         sessionID: input.sessionID,
         messageID,
         type: "text",
