@@ -1,0 +1,30 @@
+{
+  "name": "opencode-plugin-prompt-timestamp",
+  "version": "0.1.0",
+  "description": "opencode plugin: inject a one-line time context (local timezone + UTC) into every user prompt.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "timestamp",
+    "time"
+  ],
+  "license": "0BSD",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "peerDependenciesMeta": {
+    "@opencode-ai/plugin": {
+      "optional": true
+    }
+  }
+}
